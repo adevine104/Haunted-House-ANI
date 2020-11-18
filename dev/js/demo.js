@@ -199,9 +199,12 @@ drawInTL.from("#F-1", {
 }, "play");
 
 
+drawInTL.from("#F-1", {
+    duration: 1,
+    transformOrigin: "center"
+}, "playPause");
 
-
-drawInTL.delay(2).play
+// drawInTL.delay(2).play
 
 
 
@@ -277,7 +280,7 @@ drawInTL.to("#D-1", {
 
 drawInTL.to("#H-2", {
     duration: 3,
-    x: 40,
+    x: 10,
     y: 180,
     rotate: 30,
     transformOrigin: "center"
@@ -285,7 +288,7 @@ drawInTL.to("#H-2", {
 
 drawInTL.to("#O-1", {
     duration: 3.5,
-    x: 0,
+    x: -30,
     y: 140,
     rotate: -40,
     scale: 1.5,
@@ -294,7 +297,7 @@ drawInTL.to("#O-1", {
 
 drawInTL.to("#U-2", {
     duration: 4.25,
-    x: -70,
+    x: -100,
     y: 10,
     rotate: 10,
     transformOrigin: "center"
@@ -405,6 +408,36 @@ y: -140,
 scale:1.75,
 transformOrigin: "center"
 }, "play2");
+
+
+
+
+drawInTL.to("#S-1, #A-2, #F-1, #E-2", {
+    duration: 2,
+    fill: "#BA0000",
+    transformOrigin: "center"
+}, "play3");
+
+
+drawInTL.to("#S-1, #A-2, #F-1, #E-2", {
+    duration: 5,
+    scale:12,
+    transformOrigin: "center"
+}, "play4");
+
+
+drawInTL.to("#Mask", {
+    duration: 5,
+    fill: "#BA0000",
+    transformOrigin: "center"
+}, "play4");
+
+
+drawInTL.to("#H-2, #U-2, #O-1, #N-1, #T-1, #D-1, #E-1, #V-1, #I-1, #R-1, #G-1, #I-2, #N-2, #I-3, #A-3, #W-1, #O-2, #L-1, #F-1", {
+    duration: 5,
+    opacity: 0,
+    transformOrigin: "center"
+}, "play4");
 
 
 
