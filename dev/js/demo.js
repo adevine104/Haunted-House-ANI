@@ -97,7 +97,7 @@ hauntedTL.from("#A-1", {duration: 3, x: -50, y: -140, transformOrigin: "center"}
 
 
 
-        .to("#A-1", {duration: 3, x: -25, y: 80, transformOrigin: "center"}, "play2")
+        .to("#A-1", {duration: 3, x: -35, y: 80, transformOrigin: "center"}, "play2")
         .to("#H-1", {duration: 3.5, x: -30, y: -30, transformOrigin: "center"}, "play2")
         .to("#A-2", {duration: 3, x: 90, y: 100, transformOrigin: "center"}, "play2")
         .to("#U-1", {duration: 4, x: -60, y: -40, transformOrigin: "center"}, "play2")
