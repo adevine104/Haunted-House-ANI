@@ -419,9 +419,20 @@ textarea {
 /* =============
     Section 1
 ============= */
+#section-1 {
+  display: grid;
+  grid-template-columns: auto 70% auto;
+  grid-template-areas: ". motion .";
+}
 #section-1 #wholething1 {
+  grid-area: motion;
+  margin: 40px 0 40px 0px;
   border: 1px solid black;
-  height: 700px;
-  width: auto;
-  margin: 40px 0 0 220px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section-1 #wholething1 svg {
+  width: 100%;
 }

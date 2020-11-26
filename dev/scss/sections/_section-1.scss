@@ -4,14 +4,30 @@
 
 #section-1{
 
-    // background-color: black;
+    display: grid;
+    grid-template-columns: auto 70% auto;
+    grid-template-areas: ". motion .";
+    
+    #wholething1{
+        grid-area: motion;
+        margin: 40px 0 40px 0px;
+        border: 1px solid black;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-        #wholething1{
-            border: 1px solid black;
-            height: 700px;
-            width: auto;
-            margin: 40px 0 0 220px;
+        svg{
+            width: 100%;
         }
+    }
+
+        // #wholething1{
+        //     border: 1px solid black;
+        //     height: 700px;
+        //     width: auto;
+        //     margin: 40px 0 0 220px;
+        // }
 
 
 }
