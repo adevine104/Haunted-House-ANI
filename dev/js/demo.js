@@ -4,7 +4,7 @@ import {gsap} from "gsap";
 
 
 var swapSpeed = 1.5;
-var swapSpeed2 = .75;
+var swapSpeed2 = .5;
 var rotateSpeed = 3;
 // var swapSpeed3 = 2;
 // var tl = gsap.timeline({ease: "power2.out"});
@@ -140,13 +140,14 @@ hauntedTL.from("#A-1", {duration: 3, x: -50, y: -140, transformOrigin: "center"}
 
         .to("#U-2", {duration: rotateSpeed, rotate: -10, transformOrigin: "center"}, "play2-1 -=2.55")
 
-        .to("#V-1", {duration: rotateSpeed, rotate: -65, transformOrigin: "center"}, "play2-1 -=2.45")
 
-        .to("#G-1", {duration: rotateSpeed, rotate: -55, transformOrigin: "center"}, "play2-1 -=2.2")
+        .to("#V-1", {duration: rotateSpeed, rotate: -65, transformOrigin: "center"}, "play2-1 -=1.85")
 
-        .to("#A-3", {duration: rotateSpeed, rotate: 15, transformOrigin: "center"}, "play2-1 -=2.25")
+        .to("#G-1", {duration: rotateSpeed, rotate: -55, transformOrigin: "center"}, "play2-1 -=1.9")
 
-        .to("#L-1", {duration: rotateSpeed, rotate: 35, transformOrigin: "center"}, "play2-1 -=2.35")
+        .to("#A-3", {duration: rotateSpeed, rotate: 15, transformOrigin: "center"}, "play2-1 -=1.75")
+
+        .to("#L-1", {duration: rotateSpeed, rotate: 35, transformOrigin: "center"}, "play2-1 -=1.8")
 
 
     return hauntedTL;
