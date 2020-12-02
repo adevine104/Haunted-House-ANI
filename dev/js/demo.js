@@ -3,7 +3,7 @@
 import {gsap} from "gsap";
 
 
-var swapSpeed = 1.5;
+var swapSpeed = .25;
 var swapSpeed2 = .5;
 var rotateSpeed = 3;
 // var swapSpeed3 = 2;
@@ -15,7 +15,7 @@ const hauntedTL = gsap.timeline({ease: "Linear.easeNone"});
 const hauntedTwoTL = gsap.timeline({ease: "Linear.easeNone"}, "-=1");
 // const hauntedThreeTL = gsap.timeline({ease: "Linear.easeNone"}, "-=.75");
 const hauntedFourTL = gsap.timeline({ease: "Linear.easeNone"}, "-=.75");
-// const hauntedFiveTL = gsap.timeline({ease: "Linear.easeNone"}, "-=.75");
+const hauntedFiveTL = gsap.timeline({ease: "Linear.easeNone"}, "-=.75");
 
 
 export function hauntedAnimation(){
@@ -192,47 +192,7 @@ export function hauntedTwoAnimation(){
     
     
         return hauntedTwoTL;
-    }
-    
-
-
-    // export function hauntedThreeAnimation(){
-
-
-    //     hauntedThreeTL.to("#A-1", {duration: swapSpeed3, rotate: 250, transformOrigin: "center"}, "play6")
-    //         .to("#H-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#A-2", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#U-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#N-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#T-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#E-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#D-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    
-    
-    //         .to("#H-2", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#O-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#U-2", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#S-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#E-2", {duration: swapSpeed3, rotate: -220, transformOrigin: "center"}, "play6")
-    
-    
-    //         .to("#V-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#I-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#R-1", {duration: swapSpeed3, rotate: -270, transformOrigin: "center"}, "play6")
-    //         .to("#G-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#I-2", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#N-2", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#I-3", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#A-3", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    
-    //         .to("#W-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#O-2", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#L-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-    //         .to("#F-1", {duration: swapSpeed3, transformOrigin: "center"}, "play6")
-        
-    //         return hauntedThreeTL;
-    //     }
-        
+    }    
 
 
         export function hauntedFourAnimation(){
@@ -269,50 +229,20 @@ export function hauntedTwoAnimation(){
             .to("#L-1", {duration: swapSpeed2, x: 35, y: 230, transformOrigin: "center"}, "play7")
             .to("#F-1", {duration: swapSpeed2, x: -350, y: -540, transformOrigin: "center"}, "play7")
             
-            
+            .to("#F-1", {duration: 2}, "play7")
+
                 return hauntedFourTL;
             }
             
 
 
-    //     export function hauntedFiveAnimation(){
+        export function hauntedFiveAnimation(){
 
 
-    //         hauntedFiveTL.to("#A-1", {duration: swapSpeed, x: 235, y: 120, transformOrigin: "center"}, "play8")
-    //                 .to("#H-1", {duration: swapSpeed, x: 200, y: 130, transformOrigin: "center"}, "play8")
-    //                 .to("#A-2", {duration: swapSpeed, x: 90, y: 100, transformOrigin: "center"}, "play8")
-    //                 .to("#U-1", {duration: swapSpeed, x: 80, y: 120, transformOrigin: "center"}, "play8")
-    //                 .to("#N-1", {duration: swapSpeed, x: -50, y: 100, transformOrigin: "center"}, "play8")
-    //                 .to("#T-1", {duration: swapSpeed, x: -80, y: 80, transformOrigin: "center"}, "play8")
-    //                 .to("#E-1", {duration: swapSpeed, x: -20, y: 170, transformOrigin: "center"}, "play8")
-    //                 .to("#D-1", {duration: swapSpeed, x: -80, y: 140,  transformOrigin: "center"}, "play8")
+            hauntedFiveTL.to("#final-bk", {duration: .25, opacity: 1, transformOrigin: "center"}, "play8")
+                        .from("#final-text", {duration: 1.5, x:-20, opacity: 0, transformOrigin: "center"}, "play8-1")
+                        .to("#final-bk", {duration: 5}, "play8-1")
             
-            
-    //                 .to("#H-2", {duration: swapSpeed, x: 120, y: 30, transformOrigin: "center"}, "play8")
-    //                 .to("#O-1", {duration: swapSpeed, x: 50, y: 40, transformOrigin: "center"}, "play8")
-    //                 .to("#U-2", {duration: swapSpeed, x: 50, y: -30, transformOrigin: "center"}, "play8")
-    //                 .to("#S-1", {duration: swapSpeed, x: -190, y: -110, transformOrigin: "center"}, "play8")
-    //                 .to("#E-2", {duration: swapSpeed, x: 50, y: -20, transformOrigin: "center"}, "play8")
-            
-            
-    //                 .to("#V-1", {duration: swapSpeed, x: -30, y: -80, transformOrigin: "center"}, "play8")
-    //                 .to("#I-1", {duration: swapSpeed, x: -65, y: -50, transformOrigin: "center"}, "play8")
-    //                 .to("#R-1", {duration: swapSpeed, x: -35, y: -60, transformOrigin: "center"}, "play8")
-    //                 .to("#G-1", {duration: swapSpeed, x: 25, y: -45, transformOrigin: "center"}, "play8")
-    //                 .to("#I-2", {duration: swapSpeed, x: 10, y: -80, transformOrigin: "center"}, "play8")
-    //                 .to("#N-2", {duration: swapSpeed, x: -20, y: -60, transformOrigin: "center"}, "play8")
-    //                 .to("#I-3", {duration: swapSpeed, x: 20, y: -60, transformOrigin: "center"}, "play8")
-    //                 .to("#A-3", {duration: swapSpeed, x: -10, y: -130, transformOrigin: "center"}, "play8")
-            
-    //                 .to("#W-1", {duration: swapSpeed, x: -45, y: -50, transformOrigin: "center"}, "play8")
-    //                 .to("#O-2", {duration: swapSpeed, x: -65, y: -55, transformOrigin: "center"}, "play8")
-    //                 .to("#L-1", {duration: swapSpeed, x: -35, y: -30, transformOrigin: "center"}, "play8")
-    //                 .to("#F-1", {duration: swapSpeed, x: -150, y: -140, transformOrigin: "center"}, "play8")
-            
-            
-    //                 .to("#wholething", {duration: 1.25, scale:0, transformOrigin: "center"}, "play9")
-            
-            
-    //             return hauntedFiveTL;
-    //         }
+                return hauntedFiveTL;
+            }
             

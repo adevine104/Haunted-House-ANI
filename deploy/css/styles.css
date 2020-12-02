@@ -433,6 +433,9 @@ textarea {
   align-items: center;
   justify-content: center;
 }
+#section-1 #wholething1 #final-bk {
+  opacity: 0;
+}
 #section-1 #wholething1 svg {
   width: 100%;
 }
