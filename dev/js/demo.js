@@ -243,7 +243,7 @@ export function hauntedTwoAnimation(){
     
             .to("#H-2", {duration: rotateSpeed, rotate: 25, transformOrigin: "center"}, "play7-2 -=2.45")
     
-            .to("#U-2", {duration: rotateSpeed, rotate: -40, transformOrigin: "center"}, "play7-2 -=2.55")
+            .to("#U-2", {duration: rotateSpeed, rotate: -40, transformOrigin: "center"}, "play7-2 -=2.35")
     
     
             .to("#V-1", {duration: rotateSpeed, rotate: -35, transformOrigin: "center"}, "play7-2 -=1.85")
@@ -255,36 +255,36 @@ export function hauntedTwoAnimation(){
             .to("#L-1", {duration: rotateSpeed, rotate: 15, transformOrigin: "center"}, "play7-2 -=1.8")
 
 
-            .to("#A-1", {duration: swapSpeed, x: -565, y: 120, transformOrigin: "center"}, "play7-1")
-            .to("#H-1", {duration: swapSpeed, x: 600, y: -130, transformOrigin: "center"}, "play7-1")
-            .to("#A-2", {duration: swapSpeed, x: 190, y: -300, transformOrigin: "center"}, "play7-1")
-            .to("#U-1", {duration: swapSpeed, x: 180, y: -220, transformOrigin: "center"}, "play7-1")
-            .to("#N-1", {duration: swapSpeed, x: -350, y: -250, transformOrigin: "center"}, "play7-1")
-            .to("#T-1", {duration: swapSpeed, x: -180, y: -180, transformOrigin: "center"}, "play7-1")
-            .to("#E-1", {duration: swapSpeed, x: 200, y: 170, transformOrigin: "center"}, "play7-1")
-            .to("#D-1", {duration: swapSpeed, x: -180, y: -160,  transformOrigin: "center"}, "play7-1")
+            .to("#A-1", {duration: swapSpeed, x: -665, y: 220, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#H-1", {duration: swapSpeed, x: 700, y: -230, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#A-2", {duration: swapSpeed, x: 290, y: -400, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#U-1", {duration: swapSpeed, x: 280, y: -320, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#N-1", {duration: swapSpeed, x: -450, y: -350, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#T-1", {duration: swapSpeed, x: -280, y: -280, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#E-1", {duration: swapSpeed, x: 300, y: 270, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#D-1", {duration: swapSpeed, x: -280, y: -260,  scale: 3, transformOrigin: "center"}, "play7-1")
     
     
-            .to("#H-2", {duration: swapSpeed, x: -140, y: 150, transformOrigin: "center"}, "play7-1")
-            .to("#O-1", {duration: swapSpeed, x: 80, y: 400, transformOrigin: "center"}, "play7-1")
-            .to("#U-2", {duration: swapSpeed, x: -150, y: 350, transformOrigin: "center"}, "play7-1")
-            .to("#S-1", {duration: swapSpeed, x: -290, y: 250, transformOrigin: "center"}, "play7-1")
-            .to("#E-2", {duration: swapSpeed, x: 350, y: 200, transformOrigin: "center"}, "play7-1")
+            .to("#H-2", {duration: swapSpeed, x: -240, y: 250, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#O-1", {duration: swapSpeed, x: 180, y: 500, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#U-2", {duration: swapSpeed, x: -250, y: 450, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#S-1", {duration: swapSpeed, x: -390, y: 350, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#E-2", {duration: swapSpeed, x: 450, y: 300, scale: 3, transformOrigin: "center"}, "play7-1")
     
     
-            .to("#V-1", {duration: swapSpeed, x: -470, y: 0, transformOrigin: "center"}, "play7-1")
-            .to("#I-1", {duration: swapSpeed, x: -165, y: 300, transformOrigin: "center"}, "play7-1")
-            .to("#R-1", {duration: swapSpeed, x: 30, y: 350, transformOrigin: "center"}, "play7-1")
-            .to("#G-1", {duration: swapSpeed, x: 125, y: -445, transformOrigin: "center"}, "play7-1")
-            .to("#I-2", {duration: swapSpeed, x: 310, y: -80, transformOrigin: "center"}, "play7-1")
-            .to("#N-2", {duration: swapSpeed, x: -570, y: -60, transformOrigin: "center"}, "play7-1")
-            .to("#I-3", {duration: swapSpeed, x: 320, y: -60, transformOrigin: "center"}, "play7-1")
-            .to("#A-3", {duration: swapSpeed, x: -110, y: -530, transformOrigin: "center"}, "play7-1")
+            .to("#V-1", {duration: swapSpeed, x: -570, y: 100, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#I-1", {duration: swapSpeed, x: -265, y: 200, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#R-1", {duration: swapSpeed, x: 130, y: 450, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#G-1", {duration: swapSpeed, x: 225, y: -545, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#I-2", {duration: swapSpeed, x: 410, y: -180, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#N-2", {duration: swapSpeed, x: -670, y: -160, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#I-3", {duration: swapSpeed, x: 420, y: -160, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#A-3", {duration: swapSpeed, x: -210, y: -630, transformOrigin: "center"}, "play7-1")
     
-            .to("#W-1", {duration: swapSpeed, x: -145, y: 350, transformOrigin: "center"}, "play7-1")
-            .to("#O-2", {duration: swapSpeed, x: 265, y: -55, transformOrigin: "center"}, "play7-1")
-            .to("#L-1", {duration: swapSpeed, x: 35, y: 230, transformOrigin: "center"}, "play7-1")
-            .to("#F-1", {duration: swapSpeed, x: -350, y: -540, transformOrigin: "center"}, "play7-1")
+            .to("#W-1", {duration: swapSpeed, x: -245, y: 450, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#O-2", {duration: swapSpeed, x: 365, y: -155, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#L-1", {duration: swapSpeed, x: 135, y: 330, scale: 3, transformOrigin: "center"}, "play7-1")
+            .to("#F-1", {duration: swapSpeed, x: -450, y: -640, scale: 3, transformOrigin: "center"}, "play7-1")
 
 
             
