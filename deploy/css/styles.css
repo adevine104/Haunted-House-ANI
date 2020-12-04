@@ -426,7 +426,7 @@ textarea {
 }
 #section-1 #wholething1 {
   grid-area: motion;
-  margin: 40px 0 40px 0px;
+  margin: 40px 0 40px -90px;
   border: 1px solid black;
   height: 80vh;
   display: flex;
